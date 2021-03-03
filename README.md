@@ -3,8 +3,8 @@
 ![Wide](https://img.shields.io/badge/Wide-Mind-yellowgreen)
 ![I am Human](https://img.shields.io/badge/I%60m-Human-blue)
 
-# Sign up
-## My fourth project
+## Sign up
+### My fourth project
 
 Site published at https://darius717.github.io/4-sign-up/
 
@@ -16,7 +16,8 @@ Key features
 
 - HTML 
 - CSS
-- Github pages
+- Github page
+
 
 ## Author
 
