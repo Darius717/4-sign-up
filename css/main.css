@@ -5,10 +5,28 @@ body * {
   vertical-align: top;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
 }
 
 body {
   background-color: #9fcbe0;
+  
+}
+
+.bckground {
+  margin: 0;
+  background-image: url(../img/hill2.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
 }
 
 .container {
@@ -16,7 +34,7 @@ body {
   width: 800px;
   margin-top: 90px;
   margin-left: calc((100% - 800px) / 2);
-  position: relative;
+  position: absolute;
   }
   
 
@@ -64,6 +82,7 @@ body {
   padding: 60px;
   background-color: #fff;
   position: relative;
+  
   }
 
 .close {
@@ -101,17 +120,18 @@ form > .form-row > label {
   display: inline-block;
   width: 100%;
   margin-bottom: 5px;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 20px;
   text-transform: uppercase;
 }
 form > .form-row > input {
   display: inline-block;
   width: 100%;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   border: none;
   border-bottom: 2px solid #ccc;
+  font-style: italic;
 }
 form > .form-row > button {
   float: left;
