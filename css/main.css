@@ -16,7 +16,7 @@ body {
   width: 800px;
   margin-top: 90px;
   margin-left: calc((100% - 800px) / 2);
-}
+  }
 
 .left-column {
   width: 40%;
@@ -29,9 +29,26 @@ body {
   float: left;
   padding: 60px;
   background-color: #fff;
-}
+  position: relative;
+  }
 
 .close {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  float: right;
+  line-height: 57px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.close:hover {
+  color: #015cda;
+  font-size: 40px;
+  cursor: pointer;
 }
 
 form {
